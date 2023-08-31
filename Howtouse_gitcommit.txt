@@ -19,4 +19,3 @@ git commit template의 내용을 수정하면 git repo에 push된 이후에
 
 
 
-
