@@ -9,7 +9,7 @@
 2. git commit 입력
 3. insert를 위한 키보드 i 버튼 누르기
 4. commit message 작성 끝나면 esc로 종료
-5. shift : 템플릿에서 빠져나온 후 wq 입력 그리고 엔터 
+5. shift : 로 템플릿에서 빠져나온 후 wq 입력 그리고 엔터 
 
 의문점 :
 git commit template의 내용을 수정하면 git repo에 push된 이후에 
