@@ -11,11 +11,6 @@
 4. commit message 작성 끝나면 esc로 종료
 5. shift : 로 템플릿에서 빠져나온 후 wq 입력 그리고 엔터 
 
-의문점 :
-git commit template의 내용을 수정하면 git repo에 push된 이후에 
-수정된 내용으로 출력될 것으로 예상했으나,
-바로 수정된 내용으로 출력되었음
-
 
 
 
