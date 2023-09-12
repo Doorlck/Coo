@@ -1,15 +1,13 @@
 #더미 이중 연결리스트
 #보통 연결 리스트라고 하면 더미 이중 연결리스트를 의미한다. 
 
-#앞 노드와 뒤 노드를 가리키는 변수를 가진 노드를 정의한 클래스
+#노드를 정의한 클래스
 class Node:
-    #생성자 : 멤버 변숭의 초기화를 위해 반드시 정의
     def __init__(self,data=None):
         self.__data=data
         self.__prev=None
         self.__next=None
 
-    #소멸자 : 객체 소멸 시 처리해야 할 일이 있을 때만 프로그래머가 정의
     def __def__(self):
         print(f"Data of {self.data} is deleted")
 
