@@ -1,3 +1,5 @@
+##1##
+# 이중더미연결리스트
 class Node: 
     def __init__(self, data=None):
         self.__data = data
@@ -72,7 +74,7 @@ if __name__=="__main__":
     dlist.add_first(2)
     dlist.add_first(3)
     dlist.add_first(5)
-    while cur2 != dlist.tail:
+    while cur2 is not dlist.tail:
         print(cur2.data, end = " ")
         cur2 = cur2.next
     print()
