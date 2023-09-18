@@ -1,3 +1,5 @@
+# 원형큐 이해 안 됨
+
 class CQueue:
     MAXSIZE = 6
     def __init__(self):
