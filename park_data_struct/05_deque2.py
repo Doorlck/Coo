@@ -1,6 +1,12 @@
 class Deque:
     def __init__(self):
         self.container = list()
+        self.front = None
+        self.rear = None
+
+    def circle_next(x):
+        x = 0
+
 
     def is_empty(self):
         if not self.container:
