@@ -55,4 +55,4 @@ print(hash_table.search("red"))  # 출력: 5
 print(hash_table.search("green")) # 출력: 7
 
 hash_table.delete("green")
-print(hash_table.search("green"))
+print(hash_table.search("green")) # None

@@ -57,7 +57,7 @@ def show_graph(g):
     print("}")
     for i in range(len(g.vtx_arr)):
         if g.vtx_arr[i]:
-            print(f"[{i}] : {{", end="")
+            print(f"[{i}] :","{" , end="")
             for j in g.adj_list[i]:
                 print(f"{j}, ", end=" ")
             print("}")

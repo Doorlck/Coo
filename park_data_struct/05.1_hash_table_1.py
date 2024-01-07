@@ -20,7 +20,7 @@ class HashTable:
     def add(self, key, value):
         index = self.hash_function(key)
         if self.table[index] == None:
-            self.table[index] = Node(key,value)
+            self.table[index] = Node(key,value) # 데이터가 아닌 주소가 삽입되는 형태
         
         else: # 헤드에다 집어넣으면 계산이 더 빨라지나
             current = self.table[index]
@@ -45,12 +45,11 @@ class HashTable:
         if current and current.key == key:
             self.table[index] = current.next
             return
-        prev = None
         while current and current.key != key:
-            prev = current
+            current.prev = current
             current = current.next
         if current:
-            prev.next = current.next
+            current.prev.next = current.next
 
 hash_table = HashTable(length=10)
 
@@ -63,3 +62,5 @@ print(hash_table.search("green")) # 7
 
 hash_table.delete("green")
 print(hash_table.search("green")) # None
+
+print(hash_table.table)
